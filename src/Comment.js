@@ -1,7 +1,11 @@
 import React from "react";
 
-function Comment() {
-  return <div>Naturally, I agree with this article.</div>;
+class Comment {
+  constructor() {
+    return <div>Naturally, I agree with this article.</div>;
+  }
+  render;
 }
 
 export default Comment;
+
